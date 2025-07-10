@@ -1,0 +1,9 @@
+task1:
+
+
+task2:
+
+In Snowflake, compute and storage are decoupled, meaning you're only charged for each when you actually use them:
+Storage is charged separately at a flat rate (~$23/TB/month)
+Compute (warehouses) is charged per second based on warehouse size (XS, S, M, etc.)
+Since warehouses can auto-suspend and auto-resume, you avoid paying for idle time. This flexibility means you can scale up for heavy jobs and scale down or suspend when idle — leading to major cost savings over traditional systems where compute and storage are bundled together.
